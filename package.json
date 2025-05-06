@@ -1,22 +1,21 @@
 {
-  "name": "object-oriented-programming",
+  "name": "run-ts-easyly",
   "version": "1.0.0",
-  "description": "প্রোগ্রামিং শেখার পথে আমরা প্রায়ই একটি শব্দ শুনি — “প্যারাডাইম”। শব্দটি শুনতে ভারী মনে হলেও, এর মানে কিন্তু বেশ সহজ। চলুন, একে একে বুঝে নেওয়া যাক বিভিন্ন প্রোগ্রামিং প্যারাডাইম কী এবং কখন কোনটি ব্যবহার করা হয়।",
-  "homepage": "https://github.com/Sarwarhridoy4/Object-Oriented-Programming#readme",
+  "description": "🚀 TypeScript ফাইল ডাইনামিকভাবে রান করুন ts-node-dev দিয়ে!",
+  "homepage": "https://github.com/Sarwarhridoy4/run-ts-easyly#readme",
   "bugs": {
-    "url": "https://github.com/Sarwarhridoy4/Object-Oriented-Programming/issues"
+    "url": "https://github.com/Sarwarhridoy4/run-ts-easyly/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sarwarhridoy4/Object-Oriented-Programming.git"
+    "url": "git+https://github.com/Sarwarhridoy4/run-ts-easyly.git"
   },
   "license": "ISC",
   "author": "Sarwar Hossain",
   "type": "commonjs",
-  "main": "index.js",
+  "main": "watch-entry.js",
   "scripts": {
-    "watch": "node watch-entry.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "node watch-entry.js"
   },
   "devDependencies": {
     "ts-node-dev": "^2.0.0"
