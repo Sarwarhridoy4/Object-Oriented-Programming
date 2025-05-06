@@ -117,6 +117,7 @@ const fullPath = path.normalize(path.join("src", file));
 
 ```bash
 npm run watch
+```
 
 এটি একটি কাস্টম CLI টুল হিসেবেও ব্যবহারযোগ্য!
 
