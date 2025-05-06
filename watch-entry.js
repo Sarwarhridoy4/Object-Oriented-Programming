@@ -9,7 +9,7 @@ if (!file) {
   process.exit(1);
 }
 
-const fullPath = path.join("src", file);
+const fullPath = path.normalize(path.join("src", file));
 
 if (!fs.existsSync(fullPath)) {
   console.error(`❌ File not found: ${fullPath}`);
